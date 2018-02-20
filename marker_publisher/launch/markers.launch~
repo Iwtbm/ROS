@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="marker_publisher" pkg="markerpublisher" type="marker_publisher" respawn="false" output="screen"/>
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" output="screen" />
+
+
+</launch>
